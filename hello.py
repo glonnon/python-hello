@@ -14,6 +14,7 @@ class myHandler(BaseHTTPRequestHandler):
 		self.end_headers()
 		# Send the html message
 		self.wfile.write("Hello World !")
+		self.wfile.write("Hello release_1 !")
 		return
 
 try:
